@@ -66,4 +66,8 @@ export class CartService {
     const updatedCart = cart.filter((cartItem) => cartItem.id !== item.id);
     this.cart$.next(updatedCart);
   }
+
+  clearCart() {
+    this.cart$.next([]);
+  }
 }
