@@ -1,6 +1,10 @@
 <div class="cart">
   <h2>My Cart ({{ cartQuantity$ | async }})</h2>
-  @for (cartItem of cartItems$ | async; track cartItem.id) {
+
+  @if ((cartQuantity$ |async) ?? 0 > 0) { @for (cartItem of cartItems$ | async;
+  track cartItem.id) {
   <app-cart-item [data]="cartItem" />
+  } } @else {
+  <div class="empty">Your cart is empty</div>
   }
 </div>
