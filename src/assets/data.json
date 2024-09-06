@@ -2,8 +2,8 @@
   {
     "id": 1,
     "image": {
-      "main": "./images/image-samba.jpg",
-      "thumbnail": "./images/image-samba-thumbnail.jpg"
+      "main": "./assets/images/image-samba.jpg",
+      "thumbnail": "./assets/images/image-samba-thumbnail.jpg"
     },
     "name": "Adidas Samba OG Shoes",
     "category": "Sneakers",
@@ -12,8 +12,8 @@
   {
     "id": 2,
     "image": {
-      "main": "./images/image-nb550.jpg",
-      "thumbnail": "./images/image-nb550-thumbnail.jpg"
+      "main": "./assets/images/image-nb550.jpg",
+      "thumbnail": "./assets/images/image-nb550-thumbnail.jpg"
     },
     "name": "New Balance 550",
     "category": "Sneakers",
@@ -22,8 +22,8 @@
   {
     "id": 3,
     "image": {
-      "main": "./images/image-jacket.jpg",
-      "thumbnail": "./images/image-jacket-thumbnail.jpg"
+      "main": "./assets/images/image-jacket.jpg",
+      "thumbnail": "./assets/images/image-jacket-thumbnail.jpg"
     },
     "name": "Long Sleeve Button Down Jacket",
     "category": "Jackets",
@@ -32,8 +32,8 @@
   {
     "id": 4,
     "image": {
-      "main": "./images/image-sweater.jpg",
-      "thumbnail": "./images/image-sweater-thumbnail.jpg"
+      "main": "./assets/images/image-sweater.jpg",
+      "thumbnail": "./assets/images/image-sweater-thumbnail.jpg"
     },
     "name": "Wool Sweater",
     "category": "Sweaters",
