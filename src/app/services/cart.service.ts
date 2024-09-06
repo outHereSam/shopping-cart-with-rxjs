@@ -22,7 +22,7 @@ export class CartService {
     return this.cart$;
   }
 
-  addToCart(item: CartItem) {
+  increaseItemQuantity(item: CartItem) {
     const cart = this.cart$.value;
     const itemInCart = cart.find((cartItem) => cartItem.id === item.id);
 

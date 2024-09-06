@@ -3,6 +3,7 @@
   <p class="price">{{ data.price | currency : "USD" : "symbol" : "1.2-2" }}</p>
   <h4>Quantity: {{ data.quantity }}</h4>
 
+  <button (click)="cartService.increaseItemQuantity(data)">+</button>
   <button (click)="cartService.reduceItemQuantity(data)">-</button>
   <button (click)="cartService.removeItemFromCart(data)">Remove</button>
 </div>
