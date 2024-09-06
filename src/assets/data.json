@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "image": {
       "main": "./images/image-samba.jpg",
       "thumbnail": "./images/image-samba-thumbnail.jpg"
@@ -9,6 +10,7 @@
     "price": 120.0
   },
   {
+    "id": 2,
     "image": {
       "main": "./images/image-nb550.jpg",
       "thumbnail": "./images/image-nb550-thumbnail.jpg"
@@ -18,6 +20,7 @@
     "price": 90.0
   },
   {
+    "id": 3,
     "image": {
       "main": "./images/image-jacket.jpg",
       "thumbnail": "./images/image-jacket-thumbnail.jpg"
@@ -27,6 +30,7 @@
     "price": 70.0
   },
   {
+    "id": 4,
     "image": {
       "main": "./images/image-sweater.jpg",
       "thumbnail": "./images/image-sweater-thumbnail.jpg"

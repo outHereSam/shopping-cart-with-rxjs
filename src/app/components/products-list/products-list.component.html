@@ -1,0 +1,8 @@
+@for (product of (products$ | async); track product.id) {
+<div class="product">
+  <h4 class="name">{{ product.name }}</h4>
+  <p class="price">
+    {{ product.price | currency : "USD" : "symbol" : "1.2-2" }}
+  </p>
+</div>
+}
