@@ -1,0 +1,38 @@
+[
+  {
+    "image": {
+      "main": "./images/image-samba.jpg",
+      "thumbnail": "./images/image-samba-thumbnail.jpg"
+    },
+    "name": "Adidas Samba OG Shoes",
+    "category": "Sneakers",
+    "price": 120.0
+  },
+  {
+    "image": {
+      "main": "./images/image-nb550.jpg",
+      "thumbnail": "./images/image-nb550-thumbnail.jpg"
+    },
+    "name": "New Balance 550",
+    "category": "Sneakers",
+    "price": 90.0
+  },
+  {
+    "image": {
+      "main": "./images/image-jacket.jpg",
+      "thumbnail": "./images/image-jacket-thumbnail.jpg"
+    },
+    "name": "Long Sleeve Button Down Jacket",
+    "category": "Jackets",
+    "price": 70.0
+  },
+  {
+    "image": {
+      "main": "./images/image-sweater.jpg",
+      "thumbnail": "./images/image-sweater-thumbnail.jpg"
+    },
+    "name": "Wool Sweater",
+    "category": "Sweaters",
+    "price": 45.0
+  }
+]
