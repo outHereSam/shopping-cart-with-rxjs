@@ -30,9 +30,35 @@
     </div>
     <div class="bottom">
       <div class="controls">
-        <button (click)="cartService.increaseItemQuantity(data)">+</button>
+        <button (click)="cartService.reduceItemQuantity(data)">
+          <svg
+            width="14"
+            height="14"
+            viewBox="0 0 14 14"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M2.91666 6.41667H11.0833V7.58334H2.91666V6.41667Z"
+              fill="#3D3D3D"
+            />
+          </svg>
+        </button>
         <h4>{{ data.quantity }}</h4>
-        <button (click)="cartService.reduceItemQuantity(data)">-</button>
+        <button (click)="cartService.increaseItemQuantity(data)">
+          <svg
+            width="14"
+            height="14"
+            viewBox="0 0 14 14"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M11.0833 6.41667H7.58332V2.91667H6.41666V6.41667H2.91666V7.58334H6.41666V11.0833H7.58332V7.58334H11.0833V6.41667Z"
+              fill="#3D3D3D"
+            />
+          </svg>
+        </button>
       </div>
 
       <h3 class="total">
