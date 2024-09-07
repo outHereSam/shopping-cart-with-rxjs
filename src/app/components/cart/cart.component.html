@@ -4,7 +4,14 @@
   @if ((cartQuantity$ |async) ?? 0 > 0) { @for (cartItem of cartItems$ | async;
   track cartItem.id) {
   <app-cart-item [data]="cartItem" />
-  } } @else {
+  }
+  <div class="total">
+    <p>Order Total</p>
+    <h4>
+      {{ getTotalPrice() | async | currency : "USD" : "symbol" : "1.2-2" }}
+    </h4>
+  </div>
+  } @else {
   <div class="empty">Your cart is empty</div>
   }
 </div>
